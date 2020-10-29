@@ -18,9 +18,39 @@ h1, h2, h3, h4, h5, h6{
 }
 body{
     color: #2F3035;
+    font-family: 'SFProDisplay-Regular' , sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+
 }
 .container{
     max-width: 1200px;
     padding: 0 auto;
     margin: 0 auto;
+}
+.header__top-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 122px;
+    font-family: 'SFProDisplay-Bold' , sans-serif;
+    font-weight: 700;
+}
+.menu__item{
+    display: inline-block;
+    
+
+}
+.menu__item+.menu__item{
+    padding-left: 50px;
+}
+.header__box{
+    display: flex;
+}
+.header__address{
+    padding-right: 86px;
+}
+.user__list{
+    
 }
