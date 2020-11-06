@@ -128,3 +128,51 @@ body{
     left: 0;
 }
 
+.banner-section__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-section__slider{
+    max-width: 870px;
+}
+.banner-section__slider-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    z-index: 5;
+    cursor: pointer;
+}
+.banner-section__slider-btnprev{
+    left: 20px;
+}
+.banner-section__slider-btnnext{
+    right: 20px;
+}
+.slick-dots{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.slick-dots li{
+    display: inline-block;
+    padding: 0 5px;
+}
+.slick-dots button{
+    padding: 0;
+    font-size: 0;
+    margin: 0;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.slick-active button{
+    background-color: #fff;
+}
