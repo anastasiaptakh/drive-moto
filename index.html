@@ -255,13 +255,46 @@
     <div class="container">
       <div class="products__inner">
         <div class="tabs__wrapper">
-          <div class="tabs">
-            <a class="tab tab--active" href="#"></a>
+          <div class="tabs products__tabs">
+            <a class="tab tab--active products__tab" href="#">запчасти</a>
+            <a class="tab products__tab" href="#">моторы</a>
+            <a class="tab products__tab" href="#">шины</a>
+            <a class="tab products__tab" href="#">электроника</a>
+            <a class="tab products__tab" href="#">инструменты</a>
+            <a class="tab products__tab" href="#">аксессуары</a>
           </div>
-          <div class="tabs-container">
-            <div class="tabs-content">
+
+          <div class="tabs-container products__container">
+            <div class="tabs-content products__content tabs-content--active">
 
             </div>
+            
+            <div class="tabs-content products__content">
+              <div class="product-slider">
+                <div class="product-slider__item">
+                  <a class="product-item" href="#">
+                    <button class="product-item__favourite">
+
+                    </button>
+                    <img class="product-item__img" src="images/content/product-1.png" alt="">
+                    <h4 class="product-item__title">
+                      Водонепроницаемый
+                      Рюкзак
+                    </h4>
+                    <p class="price product-item__price">
+                      9 800 ₽
+                    </p>
+                    <button class="product-item__basket">
+                      <img src="images/basket-white.svg" alt="">
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="tabs-content products__content"></div>
+            <div class="tabs-content products__content"></div>
+            <div class="tabs-content products__content"></div>
+            <div class="tabs-content products__content"></div>
           </div>
         </div>
       </div>
@@ -273,3 +306,15 @@
   <script src="js/main.js"></script>
 </body>
 </html>
+
+<!--
+<div class="tabs__wrapper">
+  <div class="tabs">
+    <a class="tab tab--active" href="#"></a>
+  </div>
+  <div class="tabs-container">
+    <div class="tabs-content">
+    </div>
+  </div>
+</div>
+-->
