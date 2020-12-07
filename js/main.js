@@ -13,5 +13,9 @@ $(function(){
 
         $(this).addClass('tab--active');
         $($(this).attr('href')).addClass('tabs-content--active');
-    })
+    });
+
+    $('.product-item__favourite').on('click' , function() {
+        $('.product-item__favourite').toggleClass('product-item__favourite--active')
+    });
 });
