@@ -18,4 +18,8 @@ $(function(){
     $('.product-item__favourite').on('click' , function() {
         $('.product-item__favourite').toggleClass('product-item__favourite--active')
     });
+
+    $('.product-slider').slick({
+
+    });
 });
