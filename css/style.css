@@ -291,10 +291,10 @@ body{
     font-weight: 700;
     font-family: 'SFProDisplay-Bold' , sans-serif;
 }
-.search__content-item{
+.tabs-content{
     display: none;
 }
-.search__content-item.tabs-content.tabs-content--active{
+.tabs-content.tabs-content--active{
     display: block;
 }
 .search__content-form{
@@ -508,6 +508,26 @@ body{
 }
 .product-item__wrapper.product-item__not-avialable .product-item__notify-link span{
     border-bottom: 1px solid #1C62CD;
+}
+
+.product__title{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+.products__tab + .products__tab{
+    margin-left: 25px;
+}
+.products__tabs{
+    margin-bottom: 25px;
+}
+.products__tab{
+    padding-bottom: 12px;
+}
+.products__tab.tab--active{
+    border-bottom: 2px solid #1C62CD;
 }
 
 
