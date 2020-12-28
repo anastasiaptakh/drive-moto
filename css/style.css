@@ -629,6 +629,31 @@ body{
 .social-list__item + .social-list__item{
     margin-left: 30px;
 }
+.breadcrumbs{
+    margin-bottom: 41px;
+}
+.breadcrumbs__list-item{
+    display: inline-block;
+    padding-right: 16px;
+    margin-right: 10px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #C4C4C4;
+    position: relative;
+}
+.breadcrumbs__list-item::after{
+    content: '';
+    position: absolute;
+    background-image: url('../images/link-arrow.svg');
+    width: 6px;
+    height: 9px;
+    bottom: 5px;
+    right: 0;
+}
+.breadcrumbs__list-item:last-child::after{
+    display: none;
+}
+        
 
 
 
