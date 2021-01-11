@@ -653,6 +653,50 @@ body{
 .breadcrumbs__list-item:last-child::after{
     display: none;
 }
+.catalog{
+    margin-bottom: 100px;
+}
+.catalog__title{
+    font-family: 'SFProDisplay-Bold' , sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    color: #2F3035;
+    margin-bottom: 26px;
+}
+.catalog__filter{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.catalog__filter-items button{
+    padding: 5px 23px;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(47, 48, 53, 0.7);
+    background-color: #F0F0F4;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+.catalog__filter-items button + button{
+    margin-left: 9px;
+}
+.catalog__filter-btn button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+.catalog__filter-btn button + button{
+    margin-left: 10px;
+}
+button .catalog__filter-btngrid{
+}
+button .catalog__filter-btnline{
+
+}
         
 
 
