@@ -717,6 +717,31 @@ button .catalog__filter-btnline{
 .product-item__img{
     max-width: 100%;
 }
+
+.pagination{
+    width: 100%;
+    margin-top: 70px;
+}
+.pagination-list{
+    display: flex;
+    justify-content: center;
+}
+.pagination-list__item{
+    padding: 6px 12px;
+    color: #C4C4C4;
+    border: 2px solid transparent;
+    margin: 0 4px;
+    font-size: 18px;
+    line-height: 22px;
+    
+}
+.pagination-list__item.active{
+    color: #1C62CD;
+    border: 2px solid #1C62CD;
+}
+.pagination-list__item a{
+    display: block;
+}
         
 
 
