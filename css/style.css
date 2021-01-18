@@ -1002,6 +1002,47 @@ button .catalog__filter-btnline{
 .filter-search::placeholder{
     color: #BDBEC2;
 }
+.btn-checked .aside-filter__content{
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.btn-checked .aside-filter__content-box{
+    width: auto;
+}
+.btn-checked .aside-filter__content-label{
+    position: relative;
+    height: 25px;
+    width: 63px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.07em;
+    font-weight: bold;
+    color: #C4C4C4;
+}
+.btn-checked__text{
+    position: absolute;
+    top: -7px;
+    left: 50%;
+    transform: translateX(-59%);
+    z-index: 5;
+
+}
+.btn-checked .jq-checkbox{
+    background: #F0F0F4;
+    height: 25px;
+    width: 63px;
+    border: none;
+}
+.btn-checked .jq-checkbox.checked{
+    background: #1C62CD;
+    color: #fff;
+}
+.btn-checked .jq-checkbox.checked ~ .btn-checked__text{
+    color: #fff;
+}
+.btn-checked .jq-checkbox.checked .jq-checkbox__div{
+    display: none;
+}
 
         
 
