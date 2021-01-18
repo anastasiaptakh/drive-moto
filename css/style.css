@@ -795,10 +795,11 @@ button .catalog__filter-btnline{
 .aside-filter__content{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .aside-filter__content-box{
     width: 50%;
+    margin-bottom: 10px;
 }
 .aside-filter__content-label{
     cursor: pointer;
@@ -975,6 +976,31 @@ button .catalog__filter-btnline{
     border-radius: 0;
     border:1px solid #E0E0E0;
     box-shadow: none;
+}
+.filter-more__btn{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #1C62CD;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1C62CD;
+    padding: 0;
+}
+.filter-more{
+    width: 100%;
+}
+.filter-search{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #E0E0E0;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 0 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.filter-search::placeholder{
+    color: #BDBEC2;
 }
 
         
