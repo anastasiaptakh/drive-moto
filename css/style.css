@@ -1043,6 +1043,61 @@ button .catalog__filter-btnline{
 .btn-checked .jq-checkbox.checked .jq-checkbox__div{
     display: none;
 }
+.filter-btn__send{
+    background-color: #F0F0F4;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #BDBEC2;
+    padding: 16px 85px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.filter-btn__send--active{
+    background-color: #1C62CD;
+    color: #fff;
+}
+.aside-filter__item-btn{
+    text-align: center;
+}
+.filter__extra{
+    font-size: 13px;
+    line-height: 16px;    
+    color: #2F3035;
+    padding-right: 29px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.filter__extra::after{
+    position: absolute;
+    content: '';
+    background-image: url('../images/arrow-down.svg');
+    width: 12px;
+    height: 8px;
+    top: 5px;
+    right: 0;
+}
+.filter__extra-content{
+    display: none;
+}
+.filter__extra.filter__item-drop--active::after{
+    transform: rotate(180deg);
+}
+.filter-btn__reset{
+    font-size: 13px;
+    line-height: 16px;
+    color: #C4C4C4;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    border-bottom: 1px solid #C4C4C4;
+    display: inline-block;
+}
+
 
         
 
